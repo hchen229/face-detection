@@ -1,0 +1,32 @@
+{
+  "name": "face-detection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hchen229/face-detection.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.18.2",
+    "clarifai": "^2.5.0",
+    "cors": "^2.8.4",
+    "express": "^4.16.2",
+    "knex": "^0.14.6",
+    "pg": "^7.4.0"
+  },
+  "bugs": {
+    "url": "https://github.com/hchen229/face-detection/issues"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.4"
+  },
+  "homepage": "https://github.com/hchen229/face-detection#readme"
+}
